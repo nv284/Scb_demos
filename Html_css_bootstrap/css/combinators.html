@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--Descendant (space) -select all elements inside another element 
+, Child( > ) 
+- slect direct children only , 
+Adjacent sibling( +  ) - select immediately sibling,
+ Genral Sibling(`) - select any sibling that comes after -->
+
+ <html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="combi-style.css">
+    </head>
+    <body>
+        <div>
+            <h3> combinators</h3>
+            <p> This will be red</p>
+            <b>hello</b>
+            <section> <p> This tool </p></section>
+        </div>
+<!--Child Combinator -->
+        <div>
+            <h1>Heading </h1>
+            <p> This will be blue</p><!--direct child --><!--immediately afterimmediately--->
+            <section> <p> This will not be blue</p></section>
+        </div>
+
+        <!--general sibling-->
+        <div>
+            <h1> general sibling</h1>
+            <p>First paragraph - orange</p>
+            <p>Second paragraph - black </p>
+            <p>Second paragraph - green </p>
+        </div>
+    </body>
+ </html>

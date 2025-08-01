@@ -1,0 +1,8 @@
+body{
+    background-color: bisque;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.welcome-box{
+    background-color: aliceblue;
+    max-width: 500px;
+}

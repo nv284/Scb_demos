@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Customer registraion Form </title>
+    </head>
+    <body>
+        <center>
+            <h2> Bank Customer Registration Form </h2>
+            <form action="#" method="post">
+
+
+                <!--Full Name -->
+                <label for="name">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" pattern="[A-Za-z]{3,30}"
+                title="Enter 3-30 letters only" required><br><br>
+
+
+                <!--Email-->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z{1,}$]" title="Enter a valid email like user@example.com" required><br><br>
+
+
+                <!--phone-->
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone"
+                pattern="[6-9{1}[0-9]{9}]" title="Enter a valid 10 digit number starting with 6-9" required><br><br>
+
+                <!--Password-->
+                <lable for="password">Password :</lable><br>
+            <input type="password" id="password" name="password" placeholder="Enter your password"
+            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\W_]).{8,16}"
+            title="Password must be 8-16 character , with uppercase , ;owecase , digit and speacial marks " required><br><br>
+
+
+            <!--Gender-->
+            <label for="gender">Gender:</label><br>
+             <input type="radio" id="male" name="gender" value="Male" required>
+             <label for="male">Male</label>
+             <input type="radio" id="female" name="gender" value="Female" required>
+             <label for="female">Female</label><br><br>
+
+            <!--Account type -->
+            <label for="Account">Select Account type </label>
+            <select id="Account" name="Account" required>
+                <option value="">--Choose Account type-----</option>
+                <option value="Savings">Savings</option>
+                <option value="current">Current Account</option>
+                <option valu="fixed">Fixed Deposit</option>
+            </select>
+            <br><br>
+            <!--Adhar card-->
+            <label for="aadhar"> Adhar Number</label>
+            <input type="text" id="aadhar" name="aadhar" 
+            pattern="[0-9]{12}" title="Enter exactly 12 didgit Adhar Number"
+            required><br>
+
+            <!--Pan Nuber-->
+            <label for="pan">Pan Number</label>
+            <input type="text" id="pan" name="pan"
+            pattern="[A-Z]{5}[0-9]{4}[A-Z]{1}" title="Enter valid PAN number ">
+            <br><br>
+
+           <!--Date of Birth-->
+           <label for="dob">Date of Birth:</label>
+           <input type="date" id="dob" name="dob" required><br><br>
+
+            <!--Address-->
+            <label for="address">Address:</label><br>
+            <label for="house">House No:</label>
+            <input type="text" id="house" name="house" required><br><br>
+
+            <label for="street">Street:</label>
+            <input type="text" id="street" name="street" required><br><br>
+
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" required><br><br>
+
+            <label for="state">State:</label>
+            <input type="text" id="state" name="state" required><br><br>
+
+            <label for="pin">PinCode:</label>
+            <input type="number" id="pin" name="pin" 
+            pattern="[1-9][0-9]{6}" title="6 digit pin us required"
+            required><br><br>
+
+           <!--image-->
+           <label for="file">Upload File :</label><br>
+           <input type="file" id="file" name="file" accept="date/*"><br><br>
+
+            <!--Terms-->
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms"> I agree to the Terms & conditions </label>
+
+            <!--Buttons-->
+             <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+
+            </form>
+        </center>
+    </body>
+</html>

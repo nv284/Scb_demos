@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Function demo</title>
+    </head>
+    <body>
+        <h1> Using java script Function</h1>
+        <div id="result"></div>
+        <script language="Javascript">
+            function demo(){
+                document.getElementById("result").innerHTML="<p>This text is added by the function </p>"
+            }
+
+            function cal(a,b,c){
+                let total = a+b+c;
+                document.write("The sum is ="+total);
+            }
+            document.write("the sum is calculated bhy passing argument to function ");
+
+            <!--function can call other function-->
+            function multiply(a,b){
+                return a*b;}
+
+            function areaOfSquare(side){
+                return multiply(side, side);
+            document.write("Area of square is ="+areaOfSquare(5));
+        }
+            areaOfSquare(4);
+            sum(10,2,3);
+            demo();
+
+        </script>
+    </body>
+</html>

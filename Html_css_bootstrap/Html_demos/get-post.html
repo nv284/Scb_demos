@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Get/Post-Demo</title>
+        <style>
+            .a{
+                background-color:blueviolet;
+            }
+            p .a{
+                background-color:lightblue;
+                color: black;
+            }
+            ul>li{
+                list-style-type: square;
+            }
+            ul>li ol{
+                list-style: none;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="a"> Get Method </h1>
+        <p class="a">this is the paragraph</p>
+        
+        <form action="/search" method="get">
+  <label>Search:</label>
+  <input type="text" name="query" placeholder="Search...">
+  <button type="submit" style="border: #f2f2f2;">Search</button>
+</form>
+<ul>
+    <li>mango</li>
+    <li>Guava</li>
+    <li>
+        <ol>
+            <li>A</li>
+            <li>B</li>
+        </ol>
+    </li>
+</ul>
+    </body>
+</html>

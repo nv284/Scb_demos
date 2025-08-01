@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>login-page</title>
+    </head>
+    <body>
+       <center>
+         <form action="#" method="post">
+            <h2>Login Form</h2>
+            <label for="username">Username :</label><br>
+            <input type="text" id="username" name="username" placeholder="Enter your usernam"
+            pattern="[A-Za-z]{4,12}" title="username must be 4-12 alphabetic characters"  required><br><br>
+
+            <lable for="password">Password :</lable><br>
+            <input type="password" id="password" name="password" placeholder="Enter your password"
+            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\W_]).{8,16}"
+            title="Password must be 8-16 character , with uppercase , ;owecase , digit and speacial marks " required>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+            
+        </form>
+       </center>
+    </body>
+</html>
