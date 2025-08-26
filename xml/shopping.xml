@@ -1,0 +1,17 @@
+<customers xmlns:scb="http://www.w3.org/customers/shopping/">
+     <customer>
+          <custid>scb123</custid>
+          <items>Fridge</items>
+          <amount>15000</amount>
+     </customer>
+     <customer>
+          <custid>scb124</custid>
+          <items>MOBILE</items>
+          <amount>25000</amount>
+     </customer>
+     <customer>
+          <custid>scb125</custid>
+          <items>tv</items>
+          <amount>30000</amount>
+     </customer>
+</customers>

@@ -1,0 +1,17 @@
+ Use case 2 - Explanation
+ • As part of this use case, Create a react app with a single page which contains the below components 
+and interactions between them
+ • Ensure that the entire page has a left and a right margin of equal width
+ • Create all the below mentioned components under src/components/customers subfolder
+ • Create a CustomerList component, which can show a list of customers. For this use case, pick up 
+the customers from a json file named customers.json
+ • The customer data should have 4 fields (id, firstName, lastName, email)
+ • Ensure that the CustomerList component is displayed in the top of the page, with the title 
+“Customer List” just above the table
+ • Create a CustomerForm component which contains a form to enter the new customer details. The 
+customer form should have 3 fields i.e First Name, Last Name, Email
+ • Once the user enters the customer details and hit the submit button, a new customer has to be 
+added to the list in the CustomersList component
+ • Create a CustomerDetails component, side-by-side to the CustomerForm component. 
+• When the user clicks/selects a row in the CustomersList component, then the CustomerDetails
+ component should show up or update itself with the corresponding customer detail

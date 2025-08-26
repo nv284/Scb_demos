@@ -1,0 +1,10 @@
+body{
+  background-color: lightcoral;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+  font-size: 20px;
+}
+.card{
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+}

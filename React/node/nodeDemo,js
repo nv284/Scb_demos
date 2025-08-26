@@ -1,0 +1,23 @@
+const http = require('http');
+http.createServer((req,res)=>{
+    res.write('hello World');
+    res.end();
+}).listen(3000);
+
+
+const url = require('url');
+const myUrl = url.parse('https://example.com/page?name=scb');
+console.log(myUrl.hostname);//example.com
+
+
+const qu = require('querystring');
+const q = qu.parse('name=scb&lang=node.js');
+console.log(q.name); //scb
+
+
+
+const f1 = require('fs');
+fstat.readfile('data.txt' , 'utf8',(error,data)=>{
+if(err) throw err;
+console.lag(data);
+})

@@ -1,0 +1,38 @@
+<customerlist
+    xmlns:scb="http://www.w3.org/customers/scb/"
+    xmlns:amazon="http://www.w3.org/customers/shopping/">
+    <scb:customer>
+        <scb:customerid>123</scb:customerid>
+        <scb:firstname>Neha</scb:firstname>
+        <scb:lastname>Rathi</scb:lastname>
+        <scb:gender>female</scb:gender>
+    </scb:customer>
+    <scb:customer>
+        <scb:customerid>123</scb:customerid>
+        <scb:firstname>sudeep</scb:firstname>
+        <scb:lastname>singh</scb:lastname>
+        <scb:gender>Male</scb:gender>
+    </scb:customer>
+    <scb:customer>
+        <scb:customerid>124</scb:customerid>
+        <scb:firstname>Raj</scb:firstname>
+        <scb:lastname>Jain</scb:lastname>
+        <scb:gender>Male</scb:gender>
+    </scb:customer>
+
+    <amazon:customer>
+        <amazon:customerid>125</amazon:customerid>
+        <amazon:items>TV</amazon:items>
+        <amazon:amount>30000</amazon:amount>
+    </amazon:customer>
+    <amazon:customer>
+        <amazon:customerid>124</amazon:customerid>
+        <amazon:items>Mobile</amazon:items>
+        <amazon:amount>20000</amazon:amount>
+    </amazon:customer>
+    <amazon:customer>
+        <amazon:customerid>125</amazon:customerid>
+        <amazon:items>Laptop</amazon:items>
+        <amazon:amount>60000</amazon:amount>
+    </amazon:customer>
+</customerlist>

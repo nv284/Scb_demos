@@ -1,0 +1,26 @@
+<customers xmlns:scb="http://www.w3.org/customers/scb/">
+    <customer>
+        <custid>scb123</custid>
+        <firstname>Pavan</firstname>
+        <lastname>Singh</lastname>
+        <gender>Male</gender>
+        <type>Savings</type>
+        <balance>100000</balance>
+    </customer>
+    <customer>
+        <custid>scb124</custid>
+        <firstname>Rashmi</firstname>
+        <lastname>Verma</lastname>
+        <gender>Female</gender>
+        <type>Savings</type>
+        <balance>100000</balance>
+    </customer>
+    <customer>
+        <custid>scb125</custid>
+        <firstname>Rajat</firstname>
+        <lastname>Singh</lastname>
+        <gender>Male</gender>
+        <type>Savings</type>
+        <balance>100000</balance>
+    </customer>
+</customers>
